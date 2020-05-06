@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251DA8F12202AE33000BDB4E /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251DA8F02202AE33000BDB4E /* FirstVC.swift */; };
+		251F06F821EFA40A001CB23F /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251F06F721EFA40A001CB23F /* NewsCell.swift */; };
+		251F06FA21EFA458001CB23F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251F06F921EFA458001CB23F /* FeedViewController.swift */; };
+		2522C08E21FF494E00BA8B5F /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2522C08D21FF494E00BA8B5F /* ScoreCell.swift */; };
+		2522C09221FF712F00BA8B5F /* ScoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2522C09121FF712F00BA8B5F /* ScoresVC.swift */; };
+		25460B9421EF9C0200FFCA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460B9321EF9C0200FFCA6F /* AppDelegate.swift */; };
+		25460B9621EF9C0200FFCA6F /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460B9521EF9C0200FFCA6F /* ArticleViewController.swift */; };
+		25460B9921EF9C0200FFCA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25460B9721EF9C0200FFCA6F /* Main.storyboard */; };
+		25460B9C21EF9C0200FFCA6F /* Hop_Nation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25460B9A21EF9C0200FFCA6F /* Hop_Nation.xcdatamodeld */; };
+		25460B9E21EF9C0300FFCA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25460B9D21EF9C0300FFCA6F /* Assets.xcassets */; };
+		25460BA121EF9C0300FFCA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25460B9F21EF9C0300FFCA6F /* LaunchScreen.storyboard */; };
+		25BC41CB21F6C1BF00407A76 /* HopScoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BC41CA21F6C1BF00407A76 /* HopScoresVC.swift */; };
+		674A8A219D39138597AAB219 /* Pods_Hop_Nation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2E5686963BCF4F7A82B1E6 /* Pods_Hop_Nation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B2E5686963BCF4F7A82B1E6 /* Pods_Hop_Nation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hop_Nation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251DA8F02202AE33000BDB4E /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		251F06F721EFA40A001CB23F /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		251F06F921EFA458001CB23F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2522C08D21FF494E00BA8B5F /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
+		2522C09121FF712F00BA8B5F /* ScoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresVC.swift; sourceTree = "<group>"; };
+		25460B9021EF9C0200FFCA6F /* Hop Nation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hop Nation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25460B9321EF9C0200FFCA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25460B9521EF9C0200FFCA6F /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		25460B9821EF9C0200FFCA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25460B9B21EF9C0200FFCA6F /* Hop_Nation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hop_Nation.xcdatamodel; sourceTree = "<group>"; };
+		25460B9D21EF9C0300FFCA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25460BA021EF9C0300FFCA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25460BA221EF9C0300FFCA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BC41CA21F6C1BF00407A76 /* HopScoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopScoresVC.swift; sourceTree = "<group>"; };
+		E780554135BDE8B9DB18C6F1 /* Pods-Hop Nation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hop Nation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hop Nation/Pods-Hop Nation.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1CAA73184D337543CF0AA5 /* Pods-Hop Nation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hop Nation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hop Nation/Pods-Hop Nation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25460B8D21EF9C0200FFCA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674A8A219D39138597AAB219 /* Pods_Hop_Nation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046EA859BB18254F40029EB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B2E5686963BCF4F7A82B1E6 /* Pods_Hop_Nation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25460B8721EF9C0200FFCA6F = {
+			isa = PBXGroup;
+			children = (
+				25460B9221EF9C0200FFCA6F /* Hop Nation */,
+				25460B9121EF9C0200FFCA6F /* Products */,
+				F53ACCAE3F380FD04880186B /* Pods */,
+				046EA859BB18254F40029EB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25460B9121EF9C0200FFCA6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25460B9021EF9C0200FFCA6F /* Hop Nation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25460B9221EF9C0200FFCA6F /* Hop Nation */ = {
+			isa = PBXGroup;
+			children = (
+				25460B9321EF9C0200FFCA6F /* AppDelegate.swift */,
+				25460B9521EF9C0200FFCA6F /* ArticleViewController.swift */,
+				25460B9721EF9C0200FFCA6F /* Main.storyboard */,
+				25460B9D21EF9C0300FFCA6F /* Assets.xcassets */,
+				25460B9F21EF9C0300FFCA6F /* LaunchScreen.storyboard */,
+				25460BA221EF9C0300FFCA6F /* Info.plist */,
+				25460B9A21EF9C0200FFCA6F /* Hop_Nation.xcdatamodeld */,
+				251F06F721EFA40A001CB23F /* NewsCell.swift */,
+				251F06F921EFA458001CB23F /* FeedViewController.swift */,
+				25BC41CA21F6C1BF00407A76 /* HopScoresVC.swift */,
+				2522C08D21FF494E00BA8B5F /* ScoreCell.swift */,
+				2522C09121FF712F00BA8B5F /* ScoresVC.swift */,
+				251DA8F02202AE33000BDB4E /* FirstVC.swift */,
+			);
+			path = "Hop Nation";
+			sourceTree = "<group>";
+		};
+		F53ACCAE3F380FD04880186B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E780554135BDE8B9DB18C6F1 /* Pods-Hop Nation.debug.xcconfig */,
+				FC1CAA73184D337543CF0AA5 /* Pods-Hop Nation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25460B8F21EF9C0200FFCA6F /* Hop Nation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25460BA521EF9C0300FFCA6F /* Build configuration list for PBXNativeTarget "Hop Nation" */;
+			buildPhases = (
+				874533ADB6C975AB5A035C44 /* [CP] Check Pods Manifest.lock */,
+				25460B8C21EF9C0200FFCA6F /* Sources */,
+				25460B8D21EF9C0200FFCA6F /* Frameworks */,
+				25460B8E21EF9C0200FFCA6F /* Resources */,
+				A9F4C2EBC26C9DE0F589E638 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hop Nation";
+			productName = "Hop Nation";
+			productReference = 25460B9021EF9C0200FFCA6F /* Hop Nation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25460B8821EF9C0200FFCA6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Benjamin Goldstein";
+				TargetAttributes = {
+					25460B8F21EF9C0200FFCA6F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 25460B8B21EF9C0200FFCA6F /* Build configuration list for PBXProject "Hop Nation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25460B8721EF9C0200FFCA6F;
+			productRefGroup = 25460B9121EF9C0200FFCA6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25460B8F21EF9C0200FFCA6F /* Hop Nation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25460B8E21EF9C0200FFCA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25460BA121EF9C0300FFCA6F /* LaunchScreen.storyboard in Resources */,
+				25460B9E21EF9C0300FFCA6F /* Assets.xcassets in Resources */,
+				25460B9921EF9C0200FFCA6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		874533ADB6C975AB5A035C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hop Nation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F4C2EBC26C9DE0F589E638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hop Nation/Pods-Hop Nation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hop Nation/Pods-Hop Nation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25460B8C21EF9C0200FFCA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25460B9C21EF9C0200FFCA6F /* Hop_Nation.xcdatamodeld in Sources */,
+				2522C09221FF712F00BA8B5F /* ScoresVC.swift in Sources */,
+				25460B9621EF9C0200FFCA6F /* ArticleViewController.swift in Sources */,
+				251F06FA21EFA458001CB23F /* FeedViewController.swift in Sources */,
+				25BC41CB21F6C1BF00407A76 /* HopScoresVC.swift in Sources */,
+				2522C08E21FF494E00BA8B5F /* ScoreCell.swift in Sources */,
+				251F06F821EFA40A001CB23F /* NewsCell.swift in Sources */,
+				251DA8F12202AE33000BDB4E /* FirstVC.swift in Sources */,
+				25460B9421EF9C0200FFCA6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25460B9721EF9C0200FFCA6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25460B9821EF9C0200FFCA6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25460B9F21EF9C0300FFCA6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25460BA021EF9C0300FFCA6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25460BA321EF9C0300FFCA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25460BA421EF9C0300FFCA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25460BA621EF9C0300FFCA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E780554135BDE8B9DB18C6F1 /* Pods-Hop Nation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PLWW4V9G5;
+				INFOPLIST_FILE = "Hop Nation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Kanna\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BenGoldstein.Hop-Nation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25460BA721EF9C0300FFCA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1CAA73184D337543CF0AA5 /* Pods-Hop Nation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PLWW4V9G5;
+				INFOPLIST_FILE = "Hop Nation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Kanna\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BenGoldstein.Hop-Nation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25460B8B21EF9C0200FFCA6F /* Build configuration list for PBXProject "Hop Nation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25460BA321EF9C0300FFCA6F /* Debug */,
+				25460BA421EF9C0300FFCA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25460BA521EF9C0300FFCA6F /* Build configuration list for PBXNativeTarget "Hop Nation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25460BA621EF9C0300FFCA6F /* Debug */,
+				25460BA721EF9C0300FFCA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25460B9A21EF9C0200FFCA6F /* Hop_Nation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25460B9B21EF9C0200FFCA6F /* Hop_Nation.xcdatamodel */,
+			);
+			currentVersion = 25460B9B21EF9C0200FFCA6F /* Hop_Nation.xcdatamodel */;
+			path = Hop_Nation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25460B8821EF9C0200FFCA6F /* Project object */;
+}
